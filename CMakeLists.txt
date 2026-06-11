@@ -306,6 +306,8 @@ vulkan_test(trace_helpers)
 
 if (NOT MOCK_DRIVER MATCHES "1")
 vulkan_test(cooperative_matrix)
+vulkan_test(point_transform_cooperative_matrix)
+vulkan_test(cooperative_matrix_math)
 vulkan_test(address_remap_test_1)
 endif()
 
